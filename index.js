@@ -18,8 +18,15 @@ server.listen(port, () => {
 })
 
 const connector = new builder.ChatConnector({
-  appId: process.env.MICROSOFT_APP_ID,
-  appPassword: process.env.MICROSOFT_APP_PASSWORD
+
+    //.env
+   //appId: process.env.MICROSOFT_APP_ID,
+  //appPassword: process.env.MICROSOFT_APP_PASSWORD
+  
+  //botmaratona-bots Registro
+  appId: process.env.APP_ID,
+  appPassword: process.env.APP_PASSWORD
+
 })
 
 const bot = new builder.UniversalBot(connector)
