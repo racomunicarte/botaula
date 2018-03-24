@@ -1,0 +1,23 @@
+{
+  "name": "modulo4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.14.0",
+    "botbuilder-cognitiveservices": "^1.1.0",
+    "dotenv-extended": "^2.0.1",
+    "fast-xml-parser": "^3.3.5",
+    "formflowbotbuilder": "^0.1.4",
+    "needle": "^2.2.0",
+    "request": "^2.85.0",
+    "restify": "^6.3.4",
+    "url": "^0.11.0",
+    "valid-url": "^1.0.9"
+  }
+}
